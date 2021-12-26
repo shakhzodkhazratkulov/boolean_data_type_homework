@@ -6,4 +6,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    b = a**0.5 
+    return int(b + 0.5) ** 2 == a
+
+print(main(9))
